@@ -1,6 +1,5 @@
 import type { BaseLayoutProps } from 'fumadocs-ui/layouts/shared';
 import { siteConfig } from '../../site.config';
-import Image from 'next/image';
 
 /**
  * Shared layout configurations
@@ -13,13 +12,13 @@ export const baseOptions: BaseLayoutProps = {
   nav: {
     title: (
       <div className="flex items-center gap-2">
-        <Image
-          src={'/LOGO_ZHAPIRAK.png'}
-          alt={siteConfig.shortName}
-          width={32}
-          height={32}
-          className="h-8 w-auto"
-        />
+     
+<img
+  src="/logo_zhapirak.png"
+  alt={siteConfig.shortName}
+  className="w-8 h-8"
+/>
+        
         <span className="font-semibold">{siteConfig.shortName}</span>
       </div>
     ),
