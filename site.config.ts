@@ -79,13 +79,10 @@ export const siteConfig: SiteConfig = {
   description:
     'Documentation portal with guidelines, digital policies, and project resources for NIS students and staff.',
   author: 'IT Department — NIS',
-  baseUrl: 'https://docs.nis.kz',
+  baseUrl: 'localhost:3000',
 
   // 💡 Логотип (добавь файл в /public/images/)
   logo: '/images/logo_zhapirak.png',
 
-  links: {
-    website: 'localhost:3000',
-    telegram: 'https://t.me/nis_official',
-  },
+ 
 };

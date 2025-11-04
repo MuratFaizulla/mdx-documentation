@@ -12,13 +12,13 @@ export const baseOptions: BaseLayoutProps = {
   nav: {
     title: (
       <div className="flex items-center gap-2">
-     
-<img
-  src="/images/logo_zhapirak.png"
-  alt={siteConfig.shortName}
-  className="w-8 h-8"
-/>
-        
+
+        <img
+          src="/images/logo_zhapirak.png"
+          alt={siteConfig.shortName}
+          className="w-8 h-8"
+        />
+
         <span className="font-semibold">{siteConfig.shortName}</span>
       </div>
     ),
@@ -27,12 +27,12 @@ export const baseOptions: BaseLayoutProps = {
 
   links: [
     {
-      text: 'Home',
+      text: 'Главная',
       url: '/',
       active: 'nested-url',
     },
     {
-      text: 'Projects',
+      text: 'Документы',
       url: '/projects',
       active: 'nested-url',
     },
