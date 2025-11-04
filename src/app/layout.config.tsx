@@ -10,20 +10,20 @@ import Image from 'next/image';
  * Docs Layout: app/projects/layout.tsx
  */
 export const baseOptions: BaseLayoutProps = {
-nav: {
-  title: (
-    <div className="flex items-center gap-2">
-  <Image
-  src={siteConfig.logo ?? '/LOGO_ZHAPIRAK.png'}
-  alt={siteConfig.shortName}
-  width={32}
-  height={32}
-  className="h-8 w-auto"
-/>
-      <span className="font-semibold">{siteConfig.shortName}</span>
-    </div>
-  ),
-},
+  nav: {
+    title: (
+      <div className="flex items-center gap-2">
+        <Image
+          src={'/LOGO_ZHAPIRAK.png'}
+          alt={siteConfig.shortName}
+          width={32}
+          height={32}
+          className="h-8 w-auto"
+        />
+        <span className="font-semibold">{siteConfig.shortName}</span>
+      </div>
+    ),
+  },
 
 
   links: [
