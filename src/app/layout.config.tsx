@@ -14,7 +14,7 @@ export const baseOptions: BaseLayoutProps = {
       <div className="flex items-center gap-2">
      
 <img
-  src="/logo_zhapirak.png"
+  src="/images/logo_zhapirak.png"
   alt={siteConfig.shortName}
   className="w-8 h-8"
 />

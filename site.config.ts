@@ -82,7 +82,7 @@ export const siteConfig: SiteConfig = {
   baseUrl: 'https://docs.nis.kz',
 
   // 💡 Логотип (добавь файл в /public/images/)
-  logo: '/logo_zhapirak.png',
+  logo: '/images/logo_zhapirak.png',
 
   links: {
     website: 'localhost:3000',
