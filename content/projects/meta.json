@@ -1,0 +1,36 @@
+{
+  "title": "Digital Citizenship Guide",
+  "description": "Educational guide for safe and responsible digital behavior in schools",
+  "icon": "Globe",
+  "root": true,
+  "pages": [
+    "---Введение---",
+    "introduction",
+
+    "---Обучение студентов и академическая успеваемость---",
+    "digital-access",
+    "digital-communication",
+    "digital-literacy",
+    "digital-security-and-safety",
+    "digital-etiquette",
+    "digital-rights-and-responsibility",
+    "digital-laws",
+    "digital-health-and-wellbeing",
+    "digital-commerce",
+
+    "---Цифровое гражданство в наших школах---",
+    "evaluating-websites",
+    "cyberbullying",
+    "take-action",
+    "online-safety",
+
+    "---Включение цифрового гражданства в учебную программу — практический подход---",
+    "activities",
+
+    "---Policies---",
+    "policies",
+
+    "---References---",
+    "references"
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "title": "Acceptable Use Policy",
+  "description": "School guidelines for safe technology use",
+  "icon": "FileText",
+  "pages": [
+    "introduction",
+    "policy",
+    "section-2",
+    "internet-and-email-acceptable-use"
+  ]
+}

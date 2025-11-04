@@ -1,0 +1,14 @@
+import { Popup, PopupContent, PopupTrigger } from 'fumadocs-twoslash/ui';
+import defaultComponents from 'fumadocs-ui/mdx';
+import type { MDXComponents } from 'mdx/types';
+import Image from 'next/image';
+export function getMDXComponents(components?: MDXComponents): MDXComponents {
+  return {
+    ...defaultComponents,
+    Popup,
+    PopupContent,
+    PopupTrigger,
+    Image,
+    ...components,
+  };
+}
